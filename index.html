@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dilip Kumar B K</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header id="site-header">
+        <div class="logo">
+            <a href="#welcome-section"><img src="./images/name-logo.png" alt="Your Logo"></a>
+        </div>
+        <nav id="navbar">
+            <input type="checkbox" id="sidebar-active">
+            <label for="sidebar-active" class="open-sidebar-button">
+                <svg xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 -960 960 960" width="32">
+                    <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                </svg>
+            </label>
+            <label id="overlay" for="sidebar-active"></label>
+            <div class="links-container">
+                <label for="sidebar-active" class="close-sidebar-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 -960 960 960" width="32">
+                        <path
+                            d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                    </svg>
+                </label>
+
+                <a href="#welcome-section">About</a>
+                <a href="#projects">MyWork</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Coffee</a>
+            </div>
+        </nav>
+    </header>
+    <div id="page-wrapper">
+        <main>
+            <section id="welcome-section">
+                <h1>
+                    I am <span id="name">Dilip Kumar B K</span>
+                </h1>
+                <h1>
+                    <a href="" class="typewrite" data-period="2000"
+                        data-type='[ "I am Creative.", "I Love Code.", "I Love Collborate."]'>
+                        <span class="wrap"></span>
+                    </a>
+                </h1>
+                <div class="resume-download">
+                    <a href="Dilip Kumar B K_RESUME.pdf" download class="resume-link">Download My Resume</a>
+                </div>
+            </section>
+            <section id="projects">
+                <h1 id="my-projects">
+                    My Projects
+                </h1>
+                <div class="projects-container">
+                    <div class="project">
+                        <a class="project-link" href="https://dilip-weather-app.netlify.app/" target="_blank">
+                            <img src="./images/weather.jpg" alt="Weather-Check">
+                        </a>
+                        <h2 class="project-title">
+                            Weather Check
+                        </h2>
+                        <p>
+                            A simple weather application which use javascript fetch api and weatherstack public api
+                            The user can enter the location and get the weather status with a related image.
+                        </p>
+                    </div>
+                    <div class="project">
+                        <a class="project-link" href="https://github.com/dilip0418/placement" target="_blank">
+                            <img src="./images/PCMS.jpg" alt="Placement Management System">
+                        </a>
+                        <h2 class="project-title">
+                            Placement Mgt System - PCMS
+                        </h2>
+                        <p>
+                            A scure Rest Api Built using Java - Spirng Boot, Endpoints secure based on role, uses JWT
+                            tokens, design patterns and standards.
+                        </p>
+                    </div>
+                    <div class="project">
+                        <a class="project-link" href="https://dilip0418.github.io/Portfolio-v.1/" target="_blank">
+                            <img src="./images/nerd2.jpg" alt="Portfolio-v1">
+                        </a>
+                        <h2 class="project-title">
+                            Portfolio V1
+                        </h2>
+                        <p>
+                            A simple portfolio built using HTML CSS JavaScript, and little bootstrap.
+                        </p>
+                    </div>
+                    <div class="project">
+                        <a class="project-link" href="project1.html" target="_blank">
+                            <img src="./images/Portfolio-v2.jpg" alt="Portfolio-v2">
+                        </a>
+                        <h2 class="project-title">
+                            Portfolio V2
+                        </h2>
+                        <p>
+                            Update version of Portfolio Version has links to social media handles and coding platforms.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section id="skills">
+                <h1 id="my-skills">Skills</h1>
+                <div class="skills-container">
+                    <div class="skill">
+                        <img src="./images/java.756x1024.png" alt="Java">
+                        <span>Java</span>
+                    </div>
+                    <div class="skill">
+                        <img src="./images/spring.1024x1023.png" alt="Spring Boot">
+                        <span>SprinBboot</span>
+                    </div>
+                    <div class="skill">
+                        <img src="./images/spring-jpa.png" alt="Spring Data JPA">
+                        <span>Sprin Data JPA</span>
+                    </div>
+                    <div class="skill">
+                        <img src="./images/c-sharp.png" alt="C#">
+                        <span>C#</span>
+                    </div>
+                    <div class="skill">
+                        <img src="./images/power-automate.png" alt="C#">
+                        <span>Power Automate</span>
+                    </div>
+                    <div class="skill">
+                        <img src="./images/file-type-html.902x1024.png" alt="HTML">
+                        <span>HTML</span>
+                    </div>
+                    <div class="skill">
+                        <img src="./images/file-type-css.902x1024.png" alt="CSS">
+                        <span>CSS</span>
+                    </div>
+                    <div class="skill">
+                        <img src="./images/javascript.1024x1024.png" alt="JavaScript">
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="skill">
+                        <img src="./images/git.1024x1024.png" alt="GIT">
+                        <span>GIT</span>
+                    </div>
+                    <div class="skill">
+                        <img src="./images/mysql-original-wordmark.1024x532.png" alt="MySQL">
+                        <span>MySQL</span>
+                    </div>
+                    <div class="skill">
+                        <img src="./images/postman.1024x1024.png" alt="Postman">
+                        <span>Postman</span>
+                    </div>
+                </div>
+            </section>
+            <section id="contact">
+                <h1 id="my-contact">Let's work together...</h1>
+                <p>How do you take your coffee?</p>
+                <div class="contact-container">
+                    <div class="mail">
+                        <a href="mailto:sudheer0418@gmail.com" target="_blank" title="Dilip">
+                            <img src="./images/mailbox.1023x1024.png" alt="Mail">
+                            <span>Send a mail</span>
+                        </a>
+                    </div>
+                    <div class="phone">
+                        <a href="tel:+91-XXXXXXXXXX" target="_blank" title="Dilip">
+                            <img src="./images/phone.1024x1024.png" alt="Phone">
+                            <span>Call me</span>
+                        </a>
+                    </div>
+                    <div class="linkedin">
+                        <a href="https://www.linkedin.com/in/dilip-kumar-bk/" target="_blank" title="Dilip">
+                            <img src="./images/linkedin-original.1024x1024.png" alt="LinkedIn">
+                            <span>Connect with me</span>
+                        </a>
+                    </div>
+                    <div class="github">
+                        <a id="profile-link" href="https://github.com/dilip0418" target="_blank" title="Dilip">
+                            <img src="./images/github.1024x900.png" alt="GitHub">
+                            <span>Check my code</span>
+                        </a>
+                    </div>
+                </div>
+                <h1 id="coding-platforms">Coding Platforms</h1>
+                <div id="code-platforms">
+                    <div class="platform">
+                        <a href="https://leetcode.com/u/dilip0418/" target="_blank" title="Dilip">
+                            <img src="./images/leetcode.png" alt="Leetcode">
+                        </a>
+                    </div>
+                    <div class="platform">
+                        <a href="https://www.naukri.com/code360/profile/dilipSudheer" target="_blank" title="Dilip">
+                            <img src="./images/coding-ninjas.png" alt="Coding Ninjas">
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="footer-content">
+                <p>&copy; 2024 Dilip Kumar B K. All rights reserved. | Thank you for visiting! 😊</p>
+                <p>"Bugs को देख के भागनेका नहीं रे बाबा, Bugs को भगाने का हे रे बाबा!"</p>
+                <p></p>Keep coding, keep smiling!</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
